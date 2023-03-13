@@ -101,7 +101,7 @@ volumes:
         driver: local
 ```
 
-Run sail:
+Be careful here, original repo uses php to execute each command and here we are going to use sail on each command since we are going to run the project on sail.             
 ```
 sail up -d
 ```
