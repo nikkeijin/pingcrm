@@ -47,7 +47,7 @@ DB_USERNAME=sail
 DB_PASSWORD=password
 ```
 
-Create docker-compose.yml
+Create docker-compose.yml:
 ```
 # For more information: https://laravel.com/docs/sail
 version: '3'
