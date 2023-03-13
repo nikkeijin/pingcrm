@@ -7,7 +7,7 @@ The original version uses Artisan with SQLite and in this version we are going t
 ![](https://raw.githubusercontent.com/inertiajs/pingcrm/master/screenshot.png)
 
 # Setup   
-Note: You may need to erase container volume to avoid problems with MySQL
+Note: You may need to erase container volume to avoid problems with MySQL!
 
 Clone the repo locally:   
 ```
