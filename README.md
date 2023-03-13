@@ -70,7 +70,7 @@ Login with:
 - **Username:** johndoe@example.com   
 - **Password:** secret    
 
-Compile Vue automatically:
+# Compile Vue automatically
 ```
 npm run watch
 ```
