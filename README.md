@@ -1,7 +1,7 @@
 # pingcrm
 Demo Application from InertiaJS with Laravel &amp; Vue.   
         
-The original version uses Artisan with SQLite and in this version we are going to use Sail with MySQL.     
+The original version uses Artisan Serve with SQLite and in this version we are going to use Sail with MySQL.     
         
 Original Source: https://github.com/inertiajs/pingcrm    
 Sail Version Source: https://github.com/toyo-uc/pingcrm  
