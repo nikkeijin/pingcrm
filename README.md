@@ -9,7 +9,7 @@ Sail Version Source: https://github.com/toyo-uc/pingcrm
 ![](https://raw.githubusercontent.com/inertiajs/pingcrm/master/screenshot.png)
 
 # Setup   
-> You may need to erase container volume to avoid problems with MySQL!
+> You may need to erase MySQL related container volume to avoid problems with MySQL!
 
 Clone the repo locally:   
 ```
@@ -103,7 +103,7 @@ volumes:
         driver: local
 ```
 
-Be careful here, original repo uses php to execute each command and here we are going to use sail on each command since we are going to run the project on sail.             
+> Be careful here, original repo uses php to execute each command and here we are going to use sail on each command since we are going to run the project on sail.             
 ```
 sail up -d
 ```
