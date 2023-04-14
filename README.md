@@ -38,7 +38,7 @@ cp .env.example .env
 ```
 
 Inside .env change the DB Connection to mysql since we are not going to use sqlite and update username & password to laravel default:
-```
+```dotenv
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
@@ -48,7 +48,7 @@ DB_PASSWORD=password
 ```
 
 Create docker-compose.yml:
-```
+```yaml
 # For more information: https://laravel.com/docs/sail
 version: '3'
 services:
