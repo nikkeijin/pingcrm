@@ -12,28 +12,28 @@ Sail Version Source: https://github.com/toyo-uc/pingcrm
 > You may need to erase MySQL related container volume to avoid problems with MySQL!
 
 Clone the repo locally:   
-```
+```bash
 git clone https://github.com/inertiajs/pingcrm.git pingcrm
 cd pingcrm
 ```
 
 Install PHP dependencies, in some cases you have to use composer update:
-```
+```bash
 composer install
 ```
 
 Install NPM dependencies:
-```
+```bash
 npm ci
 ```
 
 Build assets:
-```
+```bash
 npm run dev
 ```
 
 Setup configuration:
-```
+```bash
 cp .env.example .env
 ```
 
@@ -104,22 +104,22 @@ volumes:
 ```
 
 > Be careful from here, original repo uses php to execute each command and here we are going to use sail on each command since we are going to run the project on sail.             
-```
+```bash
 sail up -d
 ```
 
 Generate application key:
-```
+```bash
 sail artisan key:generate
 ```
 
 Run database migrations:
-```
+```bash
 sail artisan migrate
 ```
 
 Run database seeder:
-```
+```bash
 sail artisan db:seed
 ```
 
@@ -129,6 +129,6 @@ Login with:
 - **Password:** secret    
 
 # Compile Vue automatically
-```
+```bash
 npm run watch
 ```
