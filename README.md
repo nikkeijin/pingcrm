@@ -132,3 +132,15 @@ Login with:
 ```bash
 npm run watch
 ```
+
+# Troubleshooting
+
+If you are facing the following error: "Please provide a valid cache path".                
+Run the following command:                
+                
+```bash
+mkdir -p storage/framework/cache/data/
+mkdir -p storage/framework/app/cache
+mkdir -p storage/framework/sessions
+mkdir -p storage/framework/views
+```
