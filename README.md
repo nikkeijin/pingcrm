@@ -140,7 +140,7 @@ Run the following command:
                 
 ```bash
 mkdir -p storage/framework/cache/data/
-mkdir -p storage/framework/app/cache
-mkdir -p storage/framework/sessions
-mkdir -p storage/framework/views
+mkdir -p storage/framework/app/cache/
+mkdir -p storage/framework/sessions/
+mkdir -p storage/framework/views/
 ```
