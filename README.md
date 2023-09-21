@@ -135,7 +135,7 @@ npm run watch
 
 # Troubleshooting
 
-"Please provide a valid cache path".
+> "Please provide a valid cache path".
                 
 ```bash
 mkdir -p storage/framework/cache/data/
@@ -144,7 +144,7 @@ mkdir -p storage/framework/sessions/
 mkdir -p storage/framework/views/
 ```
 
-"ERROR: failed to solve: error getting credentials - err: exit status 1"
+> "ERROR: failed to solve: error getting credentials - err: exit status 1"
                 
 ```bash
 sudo nano ~/.docker/config.json
@@ -152,11 +152,11 @@ sudo nano ~/.docker/config.json
                 
 Change "credsStore" value from "desktop" to "osxkeychain".
 ```bash
+{
         "auths": {
                 "https://index.docker.io/v1/": {}
         },
         "credsStore": "osxkeychain",
         "currentContext": "desktop-linux"
 }
-
 ```
