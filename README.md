@@ -134,6 +134,11 @@ npm run watch
 ```
 
 # Troubleshooting
+                
+> Run sail up using sudo
+```bash
+sudo ./vendor/bin/sail up
+```
 
 > "Please provide a valid cache path".
                 
